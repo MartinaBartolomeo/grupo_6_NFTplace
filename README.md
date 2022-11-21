@@ -24,3 +24,14 @@ Para los usuarios: un buscador de NFT segun sus intereses.
 
 Esta característica hace que sean idóneos para ser usados en juegos como representaciones de personajes, consumibles y otros objetos intercambiables.
 
+Integrantes:
+
+Gabriel Soloa:
+
+Martina Bartolomeo:
+
+Natalia Reyes:
+
+Nicolas Abdala:
+
+Darian Pavlica:  Hola! Soy Darian, tengo 31 años. Soy de zona sur Berazategui, estoy casado y tengo un perro que se llama Galo! Actualmente trabajo como Administrativo en una empresa de salud de Argentina, también trabajo con las redes sociales como Community Manager, Creador de contenido y Marketing Digital. Tengo conocimientos en programas de diseño como Adobe Photoshop e Ilustraitor.
