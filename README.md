@@ -23,3 +23,4 @@ Para los creadores:  un lugar donde mostrar sus creaciones y publicarlos para la
 Para los usuarios: un buscador de NFT segun sus intereses.
 
 Esta característica hace que sean idóneos para ser usados en juegos como representaciones de personajes, consumibles y otros objetos intercambiables.
+
