@@ -30,7 +30,7 @@ Gabriel Soloa:
 
 Martina Bartolomeo: Hola! soy Martina Bartolomeo, tengo 21 años. Soy de Capital Federal, estoy estudiando Sociologia en la Facultad de Buenos Aires y trabajo en un Call center de Venta de Seguros, manejando los clientes interesados que ingresan por WhatsApp. No tengo conocimientos previos al curso de programacion, pero siempre me intereso el pensamiento logico en la informatica. 
 
-Natalia Reyes:hhhh
+Natalia Reyes: Hola! Soy Natalia Reyes, tengo 28 años y soy Colombiana, vivo en Bogotá, estudie administración de empresas y trabajo en la hotelería, hace poco me interese por aprender del mundo de la programación, no cuento con conocimientos previos al curso, vivo con mi gatico Tom.
 
 Nicolas Abdala: asasa
 
