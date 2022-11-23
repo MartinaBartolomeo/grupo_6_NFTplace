@@ -35,3 +35,15 @@ Natalia Reyes: Hola! Soy Natalia Reyes, tengo 28 años y soy Colombiana, vivo en
 Nicolas Abdala: asasa
 
 Darian Pavlica:  Hola! Soy Darian, tengo 31 años. Soy de zona sur Berazategui, estoy casado y tengo un perro que se llama Galo! Actualmente trabajo como Administrativo en una empresa de salud de Argentina, también trabajo con las redes sociales como Community Manager, Creador de contenido y Marketing Digital. Tengo conocimientos en programas de diseño como Adobe Photoshop e Ilustraitor.
+
+Sitios de referencia:
+
+https://opensea.io/ : Es un sitio web de venta de NFT, en el cual pueden interactuar creadores y clientes, es organizado e interactivo. Se puede visualizar un banner carrusel. Ademas, al ingresar a la pagina se pueden encontrar los trending para facilidad del cliente. Tomariamos de esta pagina el banner carrusel. Tiene diseño minimalista. 
+
+https://rarible.com/ : Tiene la misma dinamica que la pagina anterior. Tiene un banner carrusel al inicio. Nos gusta como se pueda ver tanto con un tema oscuro como blanco segun la configuracion del sistema. Te permite vincular la de metamask como billetera, esto nos gustaria tomarlo para la pagina. Te envía directamente a Explorar y vender, eso ayuda a ir directamente a lo que necesito.
+
+https://www.binance.com/en/nft/home: Es muy parecida a la rarible.com, no tiene el carrito accesible a la derecha como las otras. Tiene mucha animacion y la hace bastante lenta. Nos gusta que se pueda cambiar el tipo de moneda de forma accesible. 
+
+https://decrypt.co/es: De esta pagina queremos tomar el valor de las cripto que aparece en la parte superior en el menu principal.
+
+https://superrare.com/: Tiene una dinamica muy parecida a la de una red social, lo que hace que sea dinamica la interaccion entre cliente-creador, nos gustaria tomar esto.
