@@ -26,7 +26,7 @@ Esta característica hace que sean idóneos para ser usados en juegos como repre
 
 Integrantes:
 
-Gabriel Soloa:
+Gabriel Soloa: 
 
 Martina Bartolomeo: Hola! soy Martina Bartolomeo, tengo 21 años. Soy de Capital Federal, estoy estudiando Sociologia en la Facultad de Buenos Aires y trabajo en un Call center de Venta de Seguros, manejando los clientes interesados que ingresan por WhatsApp. No tengo conocimientos previos al curso de programacion, pero siempre me intereso el pensamiento logico en la informatica. 
 
