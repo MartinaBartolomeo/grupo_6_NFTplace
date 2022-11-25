@@ -32,7 +32,7 @@ Martina Bartolomeo: Hola! soy Martina Bartolomeo, tengo 21 años. Soy de Capital
 
 Natalia Reyes: Hola! Soy Natalia Reyes, tengo 28 años y soy Colombiana, vivo en Bogotá, estudie administración de empresas y trabajo en la hotelería, hace poco me interese por aprender del mundo de la programación, no cuento con conocimientos previos al curso, vivo con mi gatico Tom.
 
-Nicolas Abdala: asasa
+Nicolas Abdala: Hola! Tengo 28 años, soy argentino y actualmente vivo en Buenos Aires. Hincha de San Lorenzo. Me encanta el fútbol, viajar y conocer lugares nuevos. Odio la rutina. Me gusta codear, tomar café y comer churros. A medida que voy aprendiendo a programar, mas me engancho. Me gustaría continuar aprendiendo Solidity y lenguajes relacionados a la Blockchain.  
 
 Darian Pavlica:  Hola! Soy Darian, tengo 31 años. Soy de zona sur Berazategui, estoy casado y tengo un perro que se llama Galo! Actualmente trabajo como Administrativo en una empresa de salud de Argentina, también trabajo con las redes sociales como Community Manager, Creador de contenido y Marketing Digital. Tengo conocimientos en programas de diseño como Adobe Photoshop e Ilustraitor.
 
