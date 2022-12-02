@@ -1,5 +1,6 @@
 # proyectoIntegrador
 Proyecto integrador para curso Full Stack - Digital House - Pagina eCommerce
+Link de Trello: https://trello.com/invite/b/lkP2Y0M3/ATTI78f76d48baf5f8b31f39e8b53092e0ce12EFAE03/sprint-2
 
 ¿Qué productos o servicios brindará nuestro sitio?
 
