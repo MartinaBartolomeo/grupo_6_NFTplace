@@ -16,10 +16,6 @@
 
 }
 
-div {
-    display: block;
-}
-
 header{
     font-family: 'Bakbak One', regular;
     text-decoration: none;
@@ -37,26 +33,45 @@ p{
     align-items: center;
 }
 
-.navbar-categorias{
+.navbar-menu{
     display: flex;
-    flex-wrap: wrap;
     margin: auto;
     justify-content: center;
     width: 90%;
     max-width: 700px;
+
 }
 
-.navbar-categorias ul{
-    display: flexbox;
+.navbar-menu ul{
     justify-content: space-around;
+    flex-direction:column;
     width: 45%;
     font-size: 17px;
     max-width: 400px;
     padding: 10px;
+
+}
+
+.navbar-menu ul li {
+    padding: 3px;
 }
 
 .input{
     display: flex;
     align-items: center;
     height: 24px;
+}
+
+main{
+    background-color: black;
+    color: white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.footer-redes{
+
 }
