@@ -1,5 +1,7 @@
 @import url(normalize.css);
 @import url(normalizePersonal.css);
+@import url(header.css);
+@import url(footer.css);
 
 *{
     margin: 0px;
@@ -7,71 +9,54 @@
     box-sizing: border-box;
 }
 
-.logo {
-    max-width: 250px;
-    min-width: 200px;
-    align-items:flex-start;
-    padding: 20px;
-    width: 30%;
-
-}
-
-header{
-    font-family: 'Bakbak One', regular;
-    text-decoration: none;
-    background-color: black;
-}
-
-p{
-    font-family: 'Poppins', sans-serif;
-}
-
-.navbar{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
-.navbar-menu{
-    display: flex;
+main {
     margin: auto;
-    justify-content: center;
-    width: 90%;
-    max-width: 700px;
-
+    width: 100vw;
+    background-color: black;
+    color: white;
 }
 
-.navbar-menu ul{
-    justify-content: space-around;
-    flex-direction:column;
-    width: 45%;
-    font-size: 17px;
-    max-width: 400px;
-    padding: 10px;
-
+.social h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 24px;
 }
 
-.navbar-menu ul li {
-    padding: 3px;
-}
-
-.input{
+.social-flex {
     display: flex;
-    align-items: center;
-    height: 24px;
+    flex-wrap: wrap;
 }
 
-main{
-    background-color: black;
-    color: white;
+.social-flex li {
+    width: 100%;
 }
 
-footer{
-    background-color: black;
-    color: white;
+.main-article-nft{
+    min-width: 200px;
+    max-width: 100%;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    position: relative;
 }
 
-.footer-redes{
-
+.main-article-nft img{
+    filter: brightness(0.5);
 }
+
+.precio, .creador, .titulo {
+    margin-left: 10px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.precio-desc{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+
