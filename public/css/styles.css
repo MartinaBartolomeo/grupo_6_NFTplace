@@ -16,11 +16,18 @@ main {
     color: white;
 }
 
+.boton-registrarse{
+    position: relative;
+    display: block;
+    margin-left: 40%;
+    bottom: 35px;
+}
+
 .social h2{
     text-align: center;
     margin-top: 30px;
     font-size: 36px;
-    font-family: 'Bakbak One', regular;
+    font-family: 'Bakbak One'
 }
 
 .social-flex {
@@ -64,10 +71,10 @@ main {
 
 button {
     text-decoration: none;
-    position: absolute;
+    position: relative;
     border: none;
     font-size: 14px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Bakbak One', regular;
     color: #fff;
     width: 5em;
     line-height: 1em;
@@ -76,6 +83,7 @@ button {
     background-size: 300%;
     border-radius: 30px;
     z-index: 1;
+    display: inline-block;
    }
    
    button:hover {
