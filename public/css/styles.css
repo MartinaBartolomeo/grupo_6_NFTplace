@@ -156,4 +156,41 @@ button:active {
 background: linear-gradient(32deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
 }
 
+/* SLIDER 
+
+.position{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slider{
+    background-image: url('/public/design/art1.png');
+    background-size: cover;
+    height: 20%;
+    width: 100%;
+    animation: animate 10s infinite;
+}
+
+@keyframes animate{
+    0%{
+        background-image: url('/public/design/banner1-nft.jpg');
+        background-size: cover;
+    }
+    33%{
+        background-image: url('/public/design/banner1-nft.jpg');
+        background-size: cover;
+    }
+    66%{
+        background-image: url('/public/design/banner1-nft.jpg');
+        background-size: cover;
+    }
+    100%{
+        background-image: url('/public/design/banner1-nft.jpg');
+        background-size: cover;
+    }
+}
+
+*/
 
