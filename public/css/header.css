@@ -52,3 +52,13 @@ p{
     align-items: center;
     height: 24px;
 }
+
+/* Media Queries */
+
+@media (min-width: 600px) {
+    
+}
+
+@media (min-width: 940px) {
+
+}
