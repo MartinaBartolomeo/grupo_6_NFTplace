@@ -10,76 +10,85 @@
     font-family: 'Bakbak One'
 }
 
-main {
-    margin: auto;
-    width: 100vw;
-    background-color: white;
-    color: black;
+body {
+  background-color: black;
 }
 
 .login-section{
-    min-width: 200px;
-    max-width: 100%;
-    width: 90%;
-    margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    position: relative;
-    border: 3px solid #f9005e;
-    background-color: #c2c3c5;
-    border-radius: 6px;
-    align-items: center;
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
 }
 
-.login-article-principal{
-    min-width: 200px;
-    max-width: 100%;
-    width: 100%;
-    margin: auto;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    position: relative;
-    align-items: center;
+
+.login-form{
+  width: 100%;
+  color: white;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+}
+
+form p input{
+  width: 50%;
+  height: 10px;
+  text-align: center;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+form p label{
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  margin: 15px;
+}
+
+form div{
+  padding: 15px;
+  margin: 15px;
+}
+
+.login-form-submit {
+  background: lightgrey;
+  width: 20%;
+  max-width: 20%;
+  border-radius: 10px;
+  align-self: center;
 }
 
 .login-welcome-text{
     text-align: center;
     font-weight: bold;
-    text-decoration:solid;
+    color: #feac00;
     width: 100%;
     font-size: 30px;
-    color: black;
-    text-shadow: white 1px 0 10px;
+    text-shadow:  #f9005e 5px 0px;
+    margin: 10px;
+    padding: 10px;
 }
 
-.logo-login{
+ 
+/* .logo-login{
     min-width: 200px;
     max-width: 300px;
     width: 100%;
     padding: 10px;
     margin: 10px;
-}
+} */
 
-
-.login-form{
-    width: 100%;
-    margin: auto;
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    position: relative;
-    align-items: center;
-}
 
 input:focus,
 textarea:focus {
@@ -87,18 +96,12 @@ textarea:focus {
 }
 
 
-.login-form-submit {
-  background: lightgrey;
-  width: 50%;
-  border-radius: 5px;
-}
-
 .login-form-submit:hover, .login-form-submit:focus {
   background: #feac00;
   outline: 0;
 }
 
-form {
+/* form {
   display: grid;
   grid-template-columns: 2fr 1fr;
   grid-gap: 30px;
@@ -106,4 +109,4 @@ form {
 
 form p {
   grid-column: 1 / 2;
-}
+} */
