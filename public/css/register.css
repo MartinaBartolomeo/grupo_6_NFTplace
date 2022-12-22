@@ -1,0 +1,134 @@
+@import url(normalize.css);
+@import url(normalizePersonal.css);
+@import url(header.css);
+@import url(footer.css);
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Bakbak One'
+}
+
+body {
+    background-color: black;
+}
+
+.register-section {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+
+.register-form {
+    width: 100%;
+    color: white;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+}
+
+form p input {
+    width: 50%;
+    height: 10px;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+}
+
+form p label {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+}
+
+form div {
+    padding: 12px;
+    margin: 12px;
+}
+
+button {
+    text-decoration: none;
+    position: relative;
+    border: none;
+    font-size: 20px;
+    font-family: 'Bakbak One', regular;
+    color: #fff;
+    width: 8em;
+    line-height: 2em;
+    text-align: center;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 300%;
+    border-radius: 30px;
+    z-index: 1;
+    display: inline-block;
+    margin: 10px;
+}
+
+/* .register-welcome-text {
+    text-align: center;
+    font-weight: bold;
+    color: #feac00;
+    width: 100%;
+    font-size: 30px;
+    text-shadow: #f9005e 5px 0px;
+    margin: 10px;
+    padding: 10px;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    border-radius: 30px;
+} */
+
+.register-welcome-text {
+    text-decoration: none;
+    position: relative;
+    border: none;
+    font-size: 20px;
+    font-family: 'Bakbak One', regular;
+    color: #fff;
+    width: 50%;
+    line-height: 2em;
+    text-align: center;
+    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+    background-size: 300%;
+    border-radius: 30px;
+    z-index: 1;
+    display: inline-block;
+    margin: 40px;
+}
+
+
+
+/* .logo-register{
+    min-width: 200px;
+    max-width: 300px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+} */
+
+
+input:focus,
+textarea:focus {
+    outline: 3px solid #feac00;
+}
+
+
+.register-form-submit:hover,
+.register-form-submit:focus {
+    background: #feac00;
+    outline: 0;
+}
