@@ -17,7 +17,7 @@ body {
 .login-section{
   width: 100%;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 10px;
   text-align: center;
   margin-bottom: 50px;
   padding: 15px;
@@ -26,6 +26,32 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
+}
+
+input {
+  writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: fieldtext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  background-color: field;
+  margin: 0em;
+  padding: 1px 2px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+  border: none;
+  border-radius: 10px !important;
 }
 
 
@@ -77,25 +103,26 @@ button {
   border-radius: 30px;
   z-index: 1;
   display: inline-block;
-  margin: 10px;
+  margin: 30px;
+  padding: 15px;
 }
 
 .login-welcome-text{
+  background: -webkit-linear-gradient(90deg, #03a9f4, #f441a5, #03a9f4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-decoration: none;
-  position: relative;
-  border: none;
-  font-size: 20px;
-  font-family: 'Bakbak One', regular;
-  color: #fff;
-  width: 50%;
-  line-height: 2em;
-  text-align: center;
-  background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
-  background-size: 300%;
-  border-radius: 30px;
-  z-index: 1;
-  display: inline-block;
-  margin: 40px;
+  word-spacing: normal;
+    position: relative;
+    border: none;
+    font-size: 40px;
+    font-family: 'Bakbak One', regular;
+    color: #fff;
+    width: 70%;
+    text-align: center;
+    z-index: 1;
+    display: inline-block;
+    margin: 30px;
 }
 
 
@@ -112,10 +139,4 @@ button {
 input:focus,
 textarea:focus {
   outline: 3px solid #feac00;
-}
-
-
-.login-form-submit:hover, .login-form-submit:focus {
-  background: #feac00;
-  outline: 0;
 }
