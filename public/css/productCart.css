@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Bakbak One'
+}
+
+body {
+
+    background-color: black;
+}
+/*-------------------- M A I N --------------------*/
+
+main {
+    margin: auto;
+    width: 100vw;
+    background-color: black;
+    color: white;
+}
+
+h4 {
+
+    text-align: right;
+    font-family: 'Bakbak One';
+    color: white;
+    font-size: 16px;        
+}
+
+p {
+    font-family: 'bakbak One';
+    color: white;
+    font-size: 12px;
+}
+
+.productoUno, .productoDos , .productoTres {
+
+    padding: 15%;
+    border: solid 2px white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
