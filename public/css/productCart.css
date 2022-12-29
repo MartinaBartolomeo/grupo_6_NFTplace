@@ -7,23 +7,40 @@
 
 body {
 
-    background-color: black;
+    background-color: #000000;
 }
 /*-------------------- M A I N --------------------*/
 
-main {
+.main {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin: auto;
-    width: 100vw;
-    background-color: black;
+    width: 85vw;
+    background-color: #000000;
     color: white;
+
 }
 
-h4 {
+.contenedorUno {
+    
+    display: flex;
+    flex-direction: column;
+    
+}
 
-    text-align: right;
+
+.h4-2 {
+
+    display: flex;
+    align-self: flex-end;
+    text-align: center;
     font-family: 'Bakbak One';
-    color: white;
-    font-size: 16px;        
+    color: #c2c3c5;
+    font-size: 16px;
+    padding-top: 5px; 
+    font-style: italic;   
 }
 
 p {
@@ -32,10 +49,118 @@ p {
     font-size: 12px;
 }
 
-.productoUno, .productoDos , .productoTres {
+.productoUno, .productoDos , .productoTres , .productoCuatro ,
+ .productoCinco , .productoSeis{
 
-    padding: 15%;
-    border: solid 2px white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 45px 45px 45px 30px;
+    border: solid 2px #f9005e;
     margin-top: 20px;
     margin-bottom: 20px;
+    
+}
+
+.agregarMasProductos {
+
+    position: relative;
+    left: 45%;
+}
+
+.imagen {
+
+    width: 150px;
+    height: 150px;
+    border: solid 3px #feac00;
+    border-radius: 10px;
+}
+
+/* .alien , .bull, .cat, .humano, .monkey, .robot{
+
+
+} */
+
+
+.descripcion {
+
+    
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 20%;
+    
+    
+}
+
+
+.cantidad {
+
+    display: flex;    
+    flex-direction: column;    
+    flex-wrap: wrap;
+    justify-content: end;
+
+}
+
+.precio {
+
+    display: flex;    
+    flex-direction: column;    
+    flex-wrap: wrap;
+    justify-content: end;
+    
+}
+
+.cancelar {
+
+    display: flex;    
+    flex-direction: column;    
+    flex-wrap: wrap;
+    justify-content: end;
+
+}
+
+.contenedorDos {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;    
+    border: solid 2px #f9005e;
+    padding: 45px;
+}
+
+.logo2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px;
+    min-width: 200px;    
+    padding-top: 50%;
+    
+    
+    
+}
+
+.detalle {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.probando {
+
+
+    display: flex;
+    flex-direction:column;    
+    margin: 100%;
 }
