@@ -6,13 +6,12 @@
 }
 
 body {
-
     background-color: #000000;
 }
+
 /*-------------------- M A I N --------------------*/
 
 .main {
-    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -20,19 +19,14 @@ body {
     width: 85vw;
     background-color: #000000;
     color: white;
-
 }
 
 .contenedorUno {
-    
     display: flex;
     flex-direction: column;
-    
 }
 
-
 .h4-2 {
-
     display: flex;
     align-self: flex-end;
     text-align: center;
@@ -50,7 +44,7 @@ p {
 }
 
 .productoUno, .productoDos , .productoTres , .productoCuatro ,
- .productoCinco , .productoSeis{
+.productoCinco , .productoSeis{
 
     display: flex;
     flex-direction: row;
@@ -64,13 +58,11 @@ p {
 }
 
 .agregarMasProductos {
-
     position: relative;
     left: 45%;
 }
 
 .imagen {
-
     width: 150px;
     height: 150px;
     border: solid 3px #feac00;
@@ -84,48 +76,37 @@ p {
 
 
 .descripcion {
-
-    
     display: flex;    
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
     max-width: 20%;
-    
-    
 }
 
 
 .cantidad {
-
     display: flex;    
     flex-direction: column;    
     flex-wrap: wrap;
     justify-content: end;
-
 }
 
 .precio {
-
     display: flex;    
     flex-direction: column;    
     flex-wrap: wrap;
     justify-content: end;
-    
 }
 
-.cancelar {
-
+.cancelar{
     display: flex;    
     flex-direction: column;    
     flex-wrap: wrap;
     justify-content: end;
-
 }
 
 .contenedorDos {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,31 +116,23 @@ p {
     padding: 45px;
 }
 
-.logo2 {
-
+.logo2{
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 250px;
     min-width: 200px;    
     padding-top: 50%;
-    
-    
-    
 }
 
-.detalle {
-
+.detalle{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-
 }
 
 .probando {
-
-
     display: flex;
     flex-direction:column;    
     margin: 100%;
