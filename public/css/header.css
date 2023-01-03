@@ -13,6 +13,21 @@ header{
     background-color: black;
 }
 
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #feac00;;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+
 p{
     font-family: 'Poppins', sans-serif;
 }
@@ -25,26 +40,21 @@ p{
 }
 
 .navbar-menu{
+    display: none;
+}
+
+.navbar-register{
+    text-decoration: none;
+    list-style-type: none;
     display: flex;
-    margin: auto;
-    justify-content: center;
-    width: 90%;
-    max-width: 700px;
-
-}
-
-.navbar-menu ul{
     justify-content: space-around;
-    flex-direction:column;
-    width: 45%;
-    font-size: 17px;
-    max-width: 400px;
-    padding: 10px;
-
 }
 
-.navbar-menu ul li {
-    padding: 3px;
+.navbar-register ul li a {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    font-size: 16px;
 }
 
 .input{
@@ -55,8 +65,28 @@ p{
 
 /* Media Queries */
 
-@media (min-width: 600px) {
+@media (min-width: 769px){
+    .logo, .input, .navbar-register{
+        width: 25%;
+    }
+    .burger-menu {
+        display: none;
+    }
+    .navbar-menu {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        padding-bottom: 10px;
+       }
     
+    .navbar-menu ul {
+        display: flex;
+        justify-content: space-around;
+        width: 45%;
+        font-size: 25px;
+        max-width: 400px;
+        padding-bottom: 10px;
+    }
 }
 
 @media (min-width: 940px) {
