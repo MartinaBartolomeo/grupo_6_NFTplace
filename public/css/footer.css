@@ -9,15 +9,6 @@ footer{
     display: flex;
 }
 
-h4{
-    font-size: 16px;
-    font-weight: 700;
-    text-decoration: none;
-    color: #feac00;
-    font-family: 'Bakbak One', regular;
-    letter-spacing: 1px;
-}
-
 .menu-footer-izquierda {
     width: 50%;
 }

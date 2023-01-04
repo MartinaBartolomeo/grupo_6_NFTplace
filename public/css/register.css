@@ -3,11 +3,15 @@
 @import url(header.css);
 @import url(footer.css);
 
+/* SACAR IMPORTS, el * y el body, y linkear en el HTML SOLO el STYLES, que es el que tiene TODO el resto de 
+los archivos importados, por ende estas repitiendo codigo y no hace falta porque esas 'condiciones' ya
+estan en STYLES */
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Bakbak One'
+    font-family: 'Bakbak One';
 }
 
 body {
@@ -87,6 +91,8 @@ form div {
     padding: 12px;
     margin-bottom: 10px;
 }
+/* el boton no tiene que tener estilo propio, sino seguir el estilo del boton del inicio (darle la misma
+clase en HTML*/ 
 
 button {
     text-decoration: none;
