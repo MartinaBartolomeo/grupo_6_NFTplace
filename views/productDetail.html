@@ -5,18 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product-Cart</title>
+    <title>Detalle de Producto</title>
     <link rel="stylesheet" href="/public/css/styles.css">
-    <link rel="stylesheet" href="/public/css/header.css">
-    <link rel="stylesheet" href="/public/css/productCart.css">
-    <link rel="stylesheet" href="/public/css/footer.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Roboto:ital@1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bakbak+One&family=Poppins:wght@200&family=Roboto:ital@1&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"rel="stylesheet" />
-    <link rel="stylesheet" href="/public/css/footer.css">
 </head>
 
 <body>
@@ -45,21 +41,46 @@
         </div>
     </header>
     <main>
-        <div class="NFT">
-            <div class="card">
-                <img src="/public/design/nftpizza.jpg" alt="">
+        <section class="card">
+            <div>
+                <h3>NFT MESSI</h3>
+                <p>
+                    Este NFT fue creado por Lionel Andres Messi el 18 de Diciembre de 2022 con el proposito de
+                    festejar la Copa del Mundo
+                </p>
+                <img src="/public/design/dibujo.robot.jpg" alt="NFT robot">
+                <a href="/views/productCart.html"><button> Agregar </button></a>
             </div>
-            <div class="informacion">
-                <h1> Pizza Boy </h1>
-                <p class="Creador"> @darianpvlk</p>
-            </div>
-            <div class="precio">
-                <div class="box-precio">
-                    <span class="precio1"><strike> 1.5 ETH </strike></span>
+        </section>
+        <a href="/views/index.html"><button class="boton-atras">Ir a Inicio</button></a>
+    </main>
+    <footer class="footer-menu">
+        <div class="menu-footer">
+            <div class="menu-footer-izquierda">
+                <h3> Redes Sociales</h3>
+                <div class="social-iconos">
+                    <a href="#"><i class="fab fa-facebook-square"></i></a> 
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></i></a>
+                </div>
+                <div class="copyright"> 
+                    <p>© 2022-Present. NFTPALACE. All rights reserved.</p>
                 </div>
             </div>
+            <div class="menu-footer-derecha">
+                <h3>Links rapidos</h3>
+                <ul>
+                    <li> <a href="/views/index.html" rel="Home">Home</a></li>
+                    <li><a href="/views/login.html" rel="loggin">Ingresar </a></li>
+                    <li><a href="/views/register.html" rel="register"></a> Registrarse</li>
+                    <li><a href="https://www.binance.com/es-LA" rel="Binance"></a> Binance</li>
+                    <li><a href="https://metamask.io/" rel="Metamask"></a>Metamask</li>
+                    <li><a href="/views/productCart.html" rel="Carrito"></a>Cart</li>
+                </ul>
+            </div>
         </div>
-    </main>
+    </footer>
 </body>
 
 </html>

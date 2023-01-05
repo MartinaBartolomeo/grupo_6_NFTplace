@@ -1,20 +1,55 @@
-@import url(normalize.css);
-@import url(normalizePersonal.css);
-@import url(header.css);
-@import url(footer.css);
+.card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax 360px, 1fr); 
+}
 
-.producto {
-  width: 200px;
-  height: 260px;
-  background-color: #212121;
-  box-shadow: 15px 15px 30px #191919,
-               -15px -15px 30px #292929;
-  transition: border-radius cubic-bezier(0.075, 0.82, 0.165, 1) 1s,
-               transform cubic-bezier(0.075, 0.82, 0.165, 1) 1s;
- }
- 
- .producto:hover {
-  border-bottom-right-radius: 50px;
-  border-top-left-radius: 50px;
-  transform: scale(1.05);
- }
+.card div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black ;
+  color: white;
+  transition: transform 1s ease-in-out;
+  margin: 15px;
+  border: 2px solid #feac00;
+  border-radius: 30px;
+}
+
+.card div h3 {
+  font-size: 24px;
+  text-align: center;
+  margin: 10px;
+}
+
+.card div p {
+  font-size: 15px;
+  text-align: center;
+  margin: 15px; 
+}
+
+.card div img {
+  border-radius: 15px;
+  width: auto;
+  height: auto;
+  max-width: 100%;  
+  max-height: 50%;
+  margin: 10px;
+}
+
+.card button{
+  margin: 20px;
+}
+
+.boton-atras{
+  margin-top: 20px;
+}
+
+.card:hover {
+  filter: opacity 0.9;
+  transform: scale(1.01); 
+}
+
+.card div h3:hover{
+  text-decoration: underline;
+}
