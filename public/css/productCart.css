@@ -13,17 +13,19 @@ body {
 
 .main {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: auto;
-    width: 85vw;
+    margin: 2%;
+    max-width: 95%;
     background-color: #000000;
     color: white;
 }
 
 .contenedorUno {
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
+    width: 50%;
 }
 
 .h4-2 {
@@ -43,8 +45,7 @@ p {
     font-size: 12px;
 }
 
-.productoUno, .productoDos , .productoTres , .productoCuatro ,
-.productoCinco , .productoSeis{
+.producto {
 
     display: flex;
     flex-direction: row;
@@ -52,9 +53,17 @@ p {
     flex-wrap: wrap;
     padding: 45px 45px 45px 30px;
     border: solid 2px #f9005e;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    
+}
+
+.efecto:hover {
+    display: flex;
+    box-shadow: 0px 0px 10px white;
+    margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    
 }
 
 .agregarMasProductos {
@@ -67,6 +76,7 @@ p {
     height: 150px;
     border: solid 3px #feac00;
     border-radius: 10px;
+    
 }
 
 /* .alien , .bull, .cat, .humano, .monkey, .robot{
@@ -125,15 +135,63 @@ p {
     padding-top: 50%;
 }
 
-.detalle{
+.nft-en-proceso, .valor {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     flex-wrap: wrap;
+    padding: 10%;
+}
+
+.detalle{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin: auto;
 }
 
 .probando {
     display: flex;
     flex-direction:column;    
-    margin: 100%;
+    
+    text-align: center;
+}
+
+.paso-final {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    
+
+}
+
+
+/* ------------------- M E D I A    Q U E R Y ------------------- */
+
+
+@media (min-width: 769px) and (orientation: landscape)  {      /*Desktop*/
+    
+    .logo, .input, .navbar-register{
+        width: 25%;
+    }
+    .burger-menu {
+        display: none;
+    }
+    .navbar-menu {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .navbar-menu ul {
+        display: flex;
+        justify-content: space-around;
+        width: 45%;
+        font-size: 25px;
+        max-width: 400px;
+        padding-bottom: 10px;
+    }
+
+
 }
