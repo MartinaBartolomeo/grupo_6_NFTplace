@@ -5,9 +5,9 @@ const path = require('path');
 const mainController = {
     // Manejo del pedido get con ruta
     index: (req, res) => {
-        res.sendFile(path.resolve(__dirname, '../views/index.html'))
+        res.sendFile(path.resolve(__dirname,'../views/index.html'))
     }
 }
 
 // Exportamos el objeto literal con distintos metodos que se usara en el enrutador por defecto
-module.exports = indexController;
+module.exports = mainController;
